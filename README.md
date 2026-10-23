@@ -307,6 +307,5 @@ npm run build:api
 
 - [Testing report and current verification status](docs/TESTING_REPORT.md)
 - [Local PostgreSQL setup for Windows](docs/LOCAL_POSTGRESQL_WINDOWS.md)
-- [Suggested demo walkthrough](docs/DEMO_SCRIPT.md)
 
-Before submitting the assignment, run the checks, update the testing report with the real results, and verify that the Google Drive demo link is accessible to reviewers (for example, set Drive sharing to **Anyone with the link — Viewer** if appropriate).
+
