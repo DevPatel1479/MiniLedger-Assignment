@@ -1,0 +1,25 @@
+{
+  "name": "miniledger",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MiniLedger \u2014 a friend-loan tracker built with Expo React Native, Express, TypeScript and PostgreSQL",
+  "workspaces": [
+    "api",
+    "mobile"
+  ],
+  "engines": {
+    "node": ">=22.13.0",
+    "npm": ">=10.9.0"
+  },
+  "scripts": {
+    "dev:api": "npm run dev --workspace @miniledger/api",
+    "dev:mobile": "cd mobile && npx expo start --clear",
+    "build:api": "npm run build --workspace @miniledger/api",
+    "typecheck": "npm run typecheck --workspace @miniledger/api && npm run typecheck --workspace @miniledger/mobile",
+    "typechecking": "npm run typecheck",
+    "test": "npm run test --workspace @miniledger/api && npm run test --workspace @miniledger/mobile",
+    "test:api": "npm run test --workspace @miniledger/api",
+    "test:mobile": "npm run test --workspace @miniledger/mobile",
+    "db:migrate": "npm run db:migrate --workspace @miniledger/api"
+  }
+}

@@ -1,0 +1,25 @@
+# Local environment files
+.env
+.env.*
+!.env.example
+api/.env
+mobile/.env
+
+# Dependencies and generated output
+node_modules/
+**/node_modules/
+api/dist/
+mobile/.expo/
+coverage/
+*.tsbuildinfo
+npm-debug.log*
+
+# Local uploaded receipt files (keep the placeholder)
+api/uploads/*
+!api/uploads/.gitkeep
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
